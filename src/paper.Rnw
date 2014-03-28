@@ -1,0 +1,34 @@
+\begin{comment}
+<<setup, include=FALSE, message=FALSE, echo=FALSE>>=
+#options(warn=-1)
+options(digits=3)
+opts_chunk$set(fig.path='figure/twocolumn-', fig.align='center', fig.show='hold', echo=FALSE)
+opts_chunk$set(cache=TRUE)
+render_listings()
+require(reshape2)
+require(scales)
+require(xtable)
+require(ggplot2)
+@
+<<chunk-hook, echo=2>>=
+<<setup>>
+@
+\end{comment}
+<<introduction, child='introduction.Rnw'>>=
+@
+<<related, child='related.Rnw'>>=
+@
+
+<<methodology, child='methodology.Rnw'>>=
+@
+
+<<analysis, child='analysis.Rnw'>>=
+@
+<<results, child='results.Rnw'>>=
+@
+<<results, child='discussion.Rnw'>>=
+@
+<<threats, child='threats.Rnw'>>=
+@
+<<conclusion, child='conclusion.Rnw'>>=
+@
