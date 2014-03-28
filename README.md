@@ -51,3 +51,8 @@ Ensure that these are run in your terminal.
 > git config --global difftool.prompt false
 > git config --global alias.d difftool
 
+=======
+knitr-acm-pdf
+=============
+
+ACM sigproc template in knitr
